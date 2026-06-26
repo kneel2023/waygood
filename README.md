@@ -1,25 +1,34 @@
-# Waygood - Study Abroad Programs
+## Setup Instructions
 
-A React Native (Expo) app that displays a list of study abroad programs with navigation to detailed information about each university.
+### Prerequisites
 
-## Features
+- [Node.js](https://nodejs.org/) (v18 or later)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- [Expo Go](https://expo.dev/go) app on your mobile device (iOS/Android)
 
-- Browse study abroad programs from top universities worldwide
-- View program details including ranking, tuition, and student population
-- Smooth navigation between screens
+### Steps
 
-## Tech Stack
+1. **Clone the repository**
 
-- React Native 0.85
-- Expo SDK 56
-- React Navigation (Native Stack)
-- TypeScript
+   ```bash
+   git clone https://github.com/kneel2023/waygood.git
+   cd waygood
+   ```
 
-## Getting Started
+2. **Install dependencies**
 
-```bash
-npm install
-npm start
-```
+   ```bash
+   npm install
+   ```
 
-Scan the QR code with Expo Go, or press `w` for web, `a` for Android, `i` for iOS.
+3. **Start the development server**
+
+   ```bash
+   npm start
+   ```
+
+4. **Run the app**
+
+   - **On mobile**: Scan the QR code with the **Expo Go** app.
+   - **On Android emulator**: Press `a`.
+   - **On iOS simulator**: Press `i` (macOS only).
